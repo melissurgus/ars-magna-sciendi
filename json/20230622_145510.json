@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hey, my name is Nathan. I'm originally from California. Moved out here to Chicago like seven, eight months ago. Never really been outside of the state that much, so when I drove over here, you know, I got to see the states along the way, which was very cool, kind of eye-opening. But let's see, a special object. My family has like a, what do you know, like a family tree book that goes all the way back to like 1500, supposedly, assuming it's all legit. Yeah, that's the only thing I could really think of. Yeah, it goes back to like 1500 or whatever. And yeah, Korean American. My uncle is a Swedish American. Lived with him for a few years, so that's pretty much why I'm here. But yeah, it's pretty neat. It would be cool to see Sweden someday.",
+        "response_summary": "Nathan shares his background, mentioning he moved to Chicago from California, has a family tree book going back to 1500, and is Korean American with Swedish heritage.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053320302?h=22a63cf308&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230622_145510\"></iframe>"
+    }
+}

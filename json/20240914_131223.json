@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My favorite cultural traditions are in the Philippines.\nWe actually celebrate Christmas from the first day of September all the way throughout December 31st.\nAnd it's more so like every single day.\nIt just gets more festive by the second.\nAnd people are like in the streets, just playing, spreading positivity, and cooking traditional foods.\nAnd that's about it.\nEven though there's no snow there, it's really hot.\nRight, Simon?\nYeah.\nHe's a bit shy.\nYeah.\nYeah.\nYeah.\nYeah.",
+        "response_summary": "The speaker describes their favorite cultural traditions, which are celebrated daily in the Philippines, including Christmas from September to December. They mention the festive atmosphere, people playing in the streets, spreading positivity, and cooking traditional foods. They also mention that it's hot in the Philippines despite no snow.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290639?h=82f50a6603&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240914_131223\"></iframe>"
+    }
+}

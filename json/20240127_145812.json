@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, I just moved to Chicago last year and I planned and I'm now having my on having my graduate program in Chicago and I will graduate in this May. I'm quite um it's quite hard for me to decide whether or not I will keep living in America since I miss my home country and my family back in my homeland but on the other hand I also like the working atmosphere the culture the freedom so it is a hard choice for me but by now I like America and I maybe I hope more to work here for a while and then maybe I will come back to my homeland I'm not sure about that I hope I can find the answer soon okay thank you",
+        "response_summary": "The response discusses the speaker's decision to stay in America after graduating from a graduate program in Chicago, balancing the desire to stay with the longing for their home country.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053287204?h=01aadb4396&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240127_145812\"></iframe>"
+    }
+}

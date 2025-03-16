@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hello everybody, my name is Yen, and I am a Filipino who has moved from the Philippines back in 2013 when I was 7.\nI didn't know much about my own culture back then.\nWell, I did know, I just didn't have much experience, you know, putting myself and doing those traditions.\nAnd even though I wanted to learn more about it here in the U.S., there was not a lot of opportunities for me to do so.\nBecause in elementary school or in middle school, they didn't have any clubs that would help you learn about your own culture.\nYou know, there's no, like, Asian club or Filipino club or anything like that.\nBut now, after coming into high school and in this city where it is very diverse, I was able to find people just like me who also want to learn about the Filipino culture.\nOther Filipinos and people who are just genuinely interested in becoming a part of Filipino family.\nAnd for that, I'm grateful that I have moved to Chicago.\nThank you.",
+        "response_summary": "The speaker shares their experience of moving from the Philippines to the U.S. and how they have found opportunities to learn about their Filipino culture in Chicago.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053403922?h=f67dd20abe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240409_110447\"></iframe>"
+    }
+}

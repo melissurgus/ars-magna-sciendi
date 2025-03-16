@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "We wanted to tell our story, which is my great-grandmother, Sophie Erickson, immigrated from Sweden when she was 17 years old, and she immigrated here to Andersonville. She grew up, well, I guess not grew up, she had her family over on Farragut, and my mother lived with her in a two-flat brownstone with her family, and my mother grew up in Andersonville, and there's a lot of tradition here in this neighborhood from Sophie, who we think of in high regards in our family, and my mom's whole family. So, Andersonville and Sweden has a special place in our heart. We were able to go last year and bring everyone. My mom has passed, but we were able to bring the whole family and start our new tradition in Sweden. Thanks! Thanks for listening.",
+        "response_summary": "The speaker shares the story of their great-grandmother's immigration from Sweden to Andersonville and the family's traditions in the neighborhood.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053287022?h=71db66cf31&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231229_145832\"></iframe>"
+    }
+}

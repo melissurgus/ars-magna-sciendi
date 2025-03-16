@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, I'm Katherine. I'm from Seattle and my favorite cultural tradition, at least here in the US, is to go out on a boat during the summer. My parents own a boat and I like to go intertubing, which is when you are on an inflatable mat which has a string attached to a boat and so you're pulled around by the boat on the lake and usually the goal of the driver is to drive very quickly and drive over some choppy waves so you get knocked off and that's very painful so try very hard not to get knocked off. But during the summer it's a ton of fun and you can stay out until late and watch the sunset and those are usually my favorite parts of the summer. Thanks.",
+        "response_summary": "Katherine describes her favorite cultural tradition of going out on a boat during the summer, specifically intertubing, and her enjoyment of staying out late and watching the sunset.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053289788?h=e662829871&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230519_115453\"></iframe>"
+    }
+}

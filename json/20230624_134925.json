@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hello. We are Kavitha and Dinesh. We are from India. We emigrated to United States in 2004. We came here for our education and better life for our kids and we are enjoying life in Chicago. We have come from India. India has a rich culture and a heritage and we love sharing our history with every go and we also love listening and learning about new culture so that's what brought us to the Museum of Sweden and we are loving learning about this rich culture and loving the Andersonville area. Thank you so much.",
+        "response_summary": "The text introduces Kavitha and Dinesh, their background, reasons for emigrating to the United States, and their current life in Chicago. They also mention their interest in learning about new cultures, specifically mentioning the Museum of Sweden and the Andersonville area.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053286464?h=62a5a65886&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230624_134925\"></iframe>"
+    }
+}

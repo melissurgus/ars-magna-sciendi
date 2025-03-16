@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "I am here to talk about an experience I had with my grandmother who was from a Swedish family and like so many U.S. Swedish families she would make us Swedish food when I was growing up including syskon sopa which you know mostly people call fruk sopa I guess now but yeah I know that was like a common thing that a lot of Swedish immigrants took and my mother would talk about how she can't find sagagrin anymore which she used to get at the Swedish store in Midtown in New York and of course all that's gone in New York now but just sharing this little snippet",
+        "response_summary": "The text is about an experience with Swedish food and the disappearance of a specific dish.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290263?h=d77e4a5bce&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230609_154331\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hello. I came to the U.S. from Pakistan in 2013 because of my dad's job, so I was only here temporarily.\nBut then in high school, I met my wife, and I fell in love.\nAnd since then, I've been here. The process of immigrating was difficult for like two years.\nI couldn't see my parents, but now that I have the green card, it's allowed me to appreciate a lot more\nof the different aspects of the American life, like just the fact that this museum is here.\nAcross the street, they're selling tacos, and there's a Korean restaurant a block down.\nThat, I think, really is the strength of the U.S., and it's been great seeing all these exhibitions.\nThank you for listening.",
+        "response_summary": "The speaker discusses coming to the U.S. from Pakistan, meeting their wife in high school, and becoming a permanent resident. They appreciate the diversity of American life and culture.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053319146?h=ed6a7cbd74&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231108_130201\"></iframe>"
+    }
+}

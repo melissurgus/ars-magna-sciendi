@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi. So, I'm Maya and I'm half Italian, half Peruvian. We moved to the United States five years ago. I'm going to a school called Hanover Highlands. I made a lot of friends. I had to move into a new class, but it's going really great. And where are we moving to now? We're moving to Ravenswood. Oh, and we bought our very first home in Ravenswood, right? Yeah. We came into the U.S. five years ago for a better life. And so far, he's been working out just fine. Right? Yeah. What's your favorite cultural tradition? Italian lasagna. Lasagna de la nonna. Yeah. Ciao, nonna.",
+        "response_summary": "The response introduces Maya, her mixed ethnic background, recent move to Ravenswood, and her favorite cultural tradition.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053318770?h=8e547a74dc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240211_134310\"></iframe>"
+    }
+}

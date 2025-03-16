@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Well, our favorite tradition is Chinese New Year because we celebrate it and it's a, we love the fireworks.\nOh yeah, and we get to call our grandparents in China.\nYeah.",
+        "response_summary": "The response discusses a favorite cultural tradition, specifically Chinese New Year, and mentions celebrating it with fireworks and calling grandparents in China.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053286288?h=563a425f00&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230304_121321\"></iframe>"
+    }
+}

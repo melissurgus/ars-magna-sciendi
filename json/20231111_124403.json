@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Okay, so, uh, our great-grandma came from Mexico to America in, like, the 1940s, something like that.\nThat was the 1940s, yeah.\nYeah, um, to get a job because they didn't have jobs in there.\nThey didn't have a lot of money.\nYeah, she was very poor, uh, and, yeah, she moved to Chicago, had kids, uh.\nUh, yeah, she got married at the age of 15.\nYeah, she was a very young mother.\nUh, yeah, she got married, she came here when she was a teenager, like, early teens, got\nmarried, uh, to this Swedish guy.\nYeah.\nIn the, when she was 15.\nYeah, she had two kids, divorced him.\nTwo kids with him.\nAnd then I think married a Polish guy.\nYeah, married a Polish guy.\nYeah, and then had.\nThen had two kids with him.\nAnd, yeah, that's how her grandma started.\nThat's how her grandma started.\nDon't worry.\nDon't worry.\nDon't worry.\nDon't worry.\nDon't worry.\nDon't worry.\nDon't worry.",
+        "response_summary": "The speaker shares the story of their great-grandmother's immigration from Mexico to America in the 1940s, mentioning her poverty, marriage at a young age, and subsequent marriages and family life in Chicago.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053349312?h=d253bd4979&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231111_124403\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Do you speak Swedish?\nHello!\nEnglish!\nHello!\nOh, it's time!\nSo, we're from Sweden.\nWhat's our special object in our family?\nOsthiven!\nOsthiven?\nYeah, the slicer.\nShe's slicer.\nIt's really nice.\nAnd also the vettigstuk,\nwhich is a...\nwhere you can\ndry up\nthe tables.\nThank you for that.\nThank you.",
+        "response_summary": "The text is responding to a question about whether the speaker speaks Swedish and then proceeds to introduce themselves and their family's special object.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053289710?h=a3d9b47aff&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230324_142555\"></iframe>"
+    }
+}

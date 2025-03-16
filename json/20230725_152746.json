@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hello. Hello. My name is Aiko. My name is Enika. Yes, we are from Madagascar, and yes, that is all we have to say goodbye.",
+        "response_summary": "A response introducing two individuals from Madagascar and saying goodbye.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053405164?h=29d85b90e7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230725_152746\"></iframe>"
+    }
+}

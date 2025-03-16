@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "So I came to the U.S. like five years ago for my undergrad degree, and I have never been to the U.S. before, and this was my first time, and it was strange because I did not speak fluent English, and I pronounced things differently than the majority of Americans, so most of the times I would say something and people had made me repeat them twice or three times over, and I ended up just being quiet in class because I didn't want to do that because sometimes it's okay when it happens once, but when it comes like three to four times, it just gets repetitive and annoying, and yeah, but over time, I get acquainted to the lifestyle here. I now speak better English, I guess, and I love the culture around here, and now I am graduating, and I'm ready to work and enter the corporate America. Fingers crossed. Yeah, so that has been my experience moving to the U.S. from Tanzania for college.",
+        "response_summary": "The speaker describes their experience moving to the U.S. for college, including the challenges of not speaking fluent English and adapting to the culture.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290984?h=eb14a478a7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230617_112855\"></iframe>"
+    }
+}

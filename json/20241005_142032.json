@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My name's Harriet, and I'm from Chicago, and I'm in my own neighborhood with my mom and my dad.\nAnd today's the Halloween year, and for school, I'm going to be mini, and for real chicken treating, I'm being the rich. Bye-bye.",
+        "response_summary": "Harriet introduces herself and mentions her family, and she's preparing for Halloween by dressing up as a mini chicken.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053319427?h=5cb89bb334&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20241005_142032\"></iframe>"
+    }
+}

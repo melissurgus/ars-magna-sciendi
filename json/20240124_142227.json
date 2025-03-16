@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "So, tell us about your experience moving or migrating someplace new.\nWell, I moved to Chicago back in 2011 from Italy.\nAnd what's funny is I am a quarter Swedish on my grandma's side, which is my mom's side.\nSo moving to Chicago is my first big move.\nAnd I love it here. I've been here for 14 years.\nHowever, I just never thought I would be living in the Swedish neighborhood.\nBut it's my favorite neighborhood.\nAnd I'm really proud of that part of my heritage.\nIt's just such rich culture and Swedish people in general are just very nice, caring people.\nAnd I'm very grateful to be living in this neighborhood.\nAnd this is my first time at the Swedish Museum. I should have done this a long time ago.\nSo yeah, this is why I came here and I've been here ever since.\nI've been doing this.\nAnd I've been trying to figure out the centre of Chicago and the heritage table.\nSo I came here and said to myself to Ariego-Riviange,\nAnd it has many many things.\nYou see undercuting onto that territory.\nI'm looking at the center of Chicago.",
+        "response_summary": "The response discusses the speaker's experience moving to Chicago from Italy, their connection to Swedish heritage, and their interest in exploring the Swedish neighborhood and the Swedish Museum.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053289109?h=5e547402f1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240124_142227\"></iframe>"
+    }
+}

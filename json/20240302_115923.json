@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Say hi.\nUm, we're from Peru, but we were born in America.\nAnd my mom's Irish, and my dad's Peruvian.\nAnd this is Izzy.\nSay hi, Izzy.",
+        "response_summary": "The text introduces a family from Peru and America, mentioning their ethnic backgrounds and introduces a child named Izzy.",
+        "matched_prompt": "How is your relationship to your ethnic identity?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285061?h=74e589c8d0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240302_115923\"></iframe>"
+    }
+}

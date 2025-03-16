@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My family has Italian and Jewish roots, so when we get together for Christmas time, we make Italian cookies and play dreidel. And then we also watch A Charlie Brown Christmas, also, it's a lot of fun.",
+        "response_summary": "The response discusses family traditions involving Italian and Jewish roots, Christmas activities like making cookies and playing dreidel, and watching A Charlie Brown Christmas.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285106?h=7991b6f5be&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230206_150631\"></iframe>"
+    }
+}

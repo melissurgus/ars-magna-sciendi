@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hello, my name is Victoria and I am an Anderson. This is really the story of my great-grandmother. She came to America in the early 1900s as an indentured servant for seven years. She worked at the Chicago Exhibition Hall where she met her husband from Germany or the man who had become her husband from Germany and they didn't get married until both of them had finished their indentured servanthood about ten years later. They were in their 40s and that's when they had their first child, my grandmother Mildred, and then they had a second child ten years later named Jackson. They started out in Chicago but they moved to Walnut Grove, Missouri and then they settled in that area and had a wonderful life for over 50 years and I'm very proud to be Swedish and I'm very glad that I'm learning about Andersonville here in Chicago.",
+        "response_summary": "Victoria shares her family's story of coming to America as indentured servants and settling in Chicago.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290040?h=35b58d88b7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230618_143317\"></iframe>"
+    }
+}

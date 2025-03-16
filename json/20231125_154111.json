@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Oh, it's on. Hi, everyone. My name is Laura Bertan and I'm Estera Bertan. And our families migrated here in the 90s and they actually were refugees. Escaping communism. Yeah, exactly. From Romania. And so, yeah, we came to this country. Well, my grandparents came to this country for a better life for their 13 kids. Yes. Yeah, we're a pretty big family. We're so thankful to God for bringing us to this amazing country and that we were born into freedom. So, yeah. Bye, guys.",
+        "response_summary": "The speaker shares their family's migration story from Romania to the United States in the 90s, mentioning that their grandparents were refugees escaping communism.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053321819?h=f3009d1d0b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231125_154111\"></iframe>"
+    }
+}

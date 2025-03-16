@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, my name is Tobias and I'm from Gothenburg.\nI only have one relative who went to America, a sister of my grandfather named Sigrid.\nShe only lived here for three months before she died.\nI teach Swedish as a second language for newly arrived people in Sweden.\nAnd we think about and discuss migration every day.\nI think it's a very important topic to preserve.",
+        "response_summary": "The response discusses the speaker's background, a relative who moved to America, their work teaching Swedish, and their thoughts on migration.",
+        "matched_prompt": "How have United States immigration policies affected your community?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053288025?h=60d18ea4cd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240626_111425\"></iframe>"
+    }
+}

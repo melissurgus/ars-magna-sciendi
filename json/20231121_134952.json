@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Tjena, jag heter Erik och kommer fr\u00e5n G\u00f6teborg. Jag \u00e4r h\u00e4r i USA och reser runt. H\u00e4lsar p\u00e5 en kompis i Chicago. Och min favorittradition fr\u00e5n Sverige \u00e4r ju sj\u00e4lvklart midsommar. F\u00f6r d\u00e5 f\u00e5r man dricka snabbt och h\u00e4nga med kompisar och familjen. Det var allt jag hade att s\u00e4ga egentligen. Jag \u00f6nskar att de hade det h\u00e4r i USA. Men vi ska fira Thanksgiving om tv\u00e5 dagar s\u00e5 det ska bli roligt. Vi f\u00e5r se om det sl\u00e5r midsommar eller inte. Hejd\u00e5!",
+        "response_summary": "Erik, en svensk som \u00e4r i USA, h\u00e4lsar p\u00e5 en kompis i Chicago och ber\u00e4ttar om sin favorittradition fr\u00e5n Sverige, midsommar. Han \u00f6nskar att de har det bra i USA och ber\u00e4ttar att de ska fira Thanksgiving om tv\u00e5 dagar.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053300281?h=f8bafb1b9c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231121_134952\"></iframe>"
+    }
+}

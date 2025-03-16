@@ -1,0 +1,8 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "The special object in my family is, um, is, um, a, the star for our Christmas tree, because we have every Christmas for, like, Jesus' star and stuff. Yeah.",
+        "response_summary": "The response discusses a family's special Christmas tree object.",
+        "matched_prompt": "None of the above"
+    }
+}

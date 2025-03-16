@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "If you're watching this, I'm already dead.\nNo, please.\nOkay, listen, you have to take, there's an amulet in my pocket.\nYou have to take it to the map.\nPlease, please, before.",
+        "response_summary": "The text describes a situation where the speaker is in danger and is asking someone to take an amulet to a map.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285760?h=0d3ca7cc15&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231001_123651\"></iframe>"
+    }
+}

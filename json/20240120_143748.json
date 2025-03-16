@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, my name is Layla and my special object in my family related to our heritage is this really big spoon my mom gave me when I first moved to Chicago for school. My family is originally from Kenya and a meal that I grew up on is skumaliki and ugali. And how you make ugali is you get cornmeal, you boil some water and you cook it with a big giant spoon. And right before I left I got really into making Kenyan food and my mom gifted me this spoon that she had that she was using to make ugali for us as a way for me to do it when I'm on my own and I can make it for myself and it's been really nice because I've been able to make it for myself and for people that I love and I'm excited to pass it down to my future children when I teach them how to make Kenyan dishes. So yeah that's my favorite special object from my family.",
+        "response_summary": "Layla shares about her family's special object, a big spoon given to her by her mother when she moved to Chicago. She describes her family's heritage from Kenya and a traditional Kenyan dish called ugali, which she now makes for herself and others.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053291134?h=0803f1946c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240120_143748\"></iframe>"
+    }
+}

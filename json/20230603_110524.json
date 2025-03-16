@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "I was adopted when I was two years old, so learning my Swedish heritage was very important to me.\nDidn't know who I was, didn't know why I was the way I was, didn't know why I was so quiet in front of strangers,\nhad that personal space, didn't know where my place was in the world.\nTurns out I'm a Viking. Turns out I'm very Swedish, and when I found everything about Sweden,\nSwedishness, and everything revolving it, I found my place, and it became very special to me,\nand this trip is a very, very special trip to me, and I'm soaking in every minute,\nand I'm thankful that it exists, so thank you.",
+        "response_summary": "The text describes someone's journey of discovering their Swedish heritage and feeling a sense of belonging.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053289188?h=58e81494ed&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230603_110524\"></iframe>"
+    }
+}

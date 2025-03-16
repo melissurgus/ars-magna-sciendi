@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Det \u00e4r en bild som kallade det Hummstedn\u00e4rkt 1962, som gav landomr\u00e5den gratis till folk som kommer att ha en bussatta st\u00e4der.\nT\u00e4nk vad det \u00e4r ordentligt f\u00f6r folk som inte hade n\u00e5gon v\u00e4g.\nDet m\u00e5ste vara ordentligt.\nJa, precis.\nT\u00e4nk vad det \u00e4r ordentligt f\u00f6r folk som inte hade n\u00e5gon v\u00e4g.",
+        "response_summary": "The text describes a photograph called 'Hummstedn\u00e4rkt' from 1962 that provided free land to people who would have had no access to roads. It emphasizes the importance of this for people without access to roads.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053286397?h=abd9a780c5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231031_131552\"></iframe>"
+    }
+}

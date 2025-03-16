@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, my name is Wally. I moved from Vietnam when I was 16 years old. I moved to Boston, Massachusetts because my parents wanted to find a better place for me to get my education. And I love America. I love Boston. But I also love Vietnam. And I miss it sometimes. But I love seeing Vietnam in new places. And I see that a lot in Boston. And I love America.",
+        "response_summary": "The response discusses Wally's background, moving from Vietnam to Boston, his love for both countries, and his connection to Vietnam.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053287064?h=30775b51a1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240127_131017\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, my name is Morgana Williams. I visited Gothenburg, Sweden to visit my best friend, Karma Umawale. She moved to Sweden about 15 years ago, so 2023 is today, 15 years ago from today. She works at Prostavik, a very famous rock and roll hall. It's really nice. I enjoyed Sweden, and you can take a steeneliner from Sweden to Germany, which is what I plan to do to visit my friend, Rebecca Kaplan, who's married now. I don't know her married name, but I really enjoyed Sweden. Every night I went to Prostavik, I enjoyed Swedish meatballs and lagenberries, as well as the delicacies that they have there. And also Poseidon is outside of the art museum in Gothenburg. I really enjoyed it. I do plan on moving to Gothenburg one day.",
+        "response_summary": "The response discusses a visit to Gothenburg, Sweden by the speaker, visiting a friend, enjoying local food and attractions, and considering moving to the city.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053286232?h=fd1d44112f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230808_143636\"></iframe>"
+    }
+}

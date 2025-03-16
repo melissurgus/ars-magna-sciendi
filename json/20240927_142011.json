@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My favorite culture, my favorite tradition is prop, is gonna be Chris, so...\nGo ahead.\nI love you so much.\nGo stop.",
+        "response_summary": "The response expresses love and affection, mentioning a favorite tradition and a person named Chris.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053319735?h=481e5bc6c7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240927_142011\"></iframe>"
+    }
+}

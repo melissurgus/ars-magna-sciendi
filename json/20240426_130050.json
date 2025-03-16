@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, we're here. I met Kate's mother from Sweden in 1999 in Belize where I was doing work on an archaeology project.\nWe went back there and got married in 2005 and then brought our daughters there in 2023 and renewed our vows there.\nSo we go to Sweden every summer and visit our family. Kate speaks English, Swedish, and Spanish.\nAnd we're visiting here to see a friend of ours, old business, a guy named Hans that used to live here.\nYeah, when we go to Sweden every summer, I get to go see my grandparents in a place called Maria Fred.\nAnd they also have a really cute little dog. His name's Eddie. He's my best friend.\nAnd then we also are really close to our neighbors.\nYeah, the Zabellas. And we spend a lot of time in the Mallorin.",
+        "response_summary": "The text describes a family's relationship with Sweden, including their marriage, children, and visits to family and friends.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053286008?h=716b2a9176&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240426_130050\"></iframe>"
+    }
+}

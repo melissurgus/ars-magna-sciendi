@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My cheer day and Graham Tyler's house and I pass out my cheer rolls.\nWhat do you wear?\nAn outfit.\nThat looks like what?\nIt's white.\nOn your head.\nI wear a crown.\nThat has what on it?\nCandles.\nAnd what do we make Ryder be?\nThe star boy.\nThe star boy.\nThe star boy.\nOkay, you're going to stop.",
+        "response_summary": "The text describes a cheer day, mentions Graham Tyler's house, passing out cheer rolls, and a conversation about what to wear, specifically mentioning a crown with candles and a character called Ryder being made into a star boy.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053286174?h=d2f13c0a8f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231124_141026\"></iframe>"
+    }
+}

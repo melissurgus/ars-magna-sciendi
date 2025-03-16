@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "So my family immigrated from Ireland to the United States and they started out in Harvard, Illinois, which is a short metro run away from downtown Chicago. They had 17 kids. Their last name was Worth Sullivan and basically what we still wear today is these clad of rings right here. The heart symbolizes love. Crown, I think the hands are friendship and then the crown is unity. So if I'm wearing it this way, it means that I am taken. I have a boyfriend. And if it's on the other side, if it's out like this, it means I'm looking for a husband or whatever. I'm looking for boyfriend, have a boyfriend, engaged, and then married.",
+        "response_summary": "The response discusses the family's immigration from Ireland to the United States, specifically to Harvard, Illinois, near Chicago. It mentions the family had 17 kids and their last name is Worth Sullivan. The response also describes the significance of a particular piece of jewelry, which includes symbols representing love, friendship, and unity.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285893?h=686acb3812&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240811_131918\"></iframe>"
+    }
+}

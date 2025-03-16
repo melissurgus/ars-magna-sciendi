@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "We are the Magnuson family, and on my side, both sets of grandparents came over to America on the boat from Sweden in the early 1900s. So we are proud Swedish Americans.\nAnd I'm also, like, from my dad's side, he is 100% Swedish, so I'm 50% Swedish.\nWhat's your Swedish name?\nMy Swedish name is Lena, and my last name is Magnuson.\nWhat about your brother?\nErik Magnuson, with a K.\nYep, and so my mother's maiden name was Nelson, and my father's last name was Magnuson, so Swedish all the way through.\nThank you for giving us this opportunity to tell us about our family.\nYeah.",
+        "response_summary": "The response discusses the Magnuson family's Swedish heritage, including their ancestors coming from Sweden in the early 1900s, and their family name being Magnuson.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290559?h=f8f5a8585a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230528_152738\"></iframe>"
+    }
+}

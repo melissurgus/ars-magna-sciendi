@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, Chicago. We are three Swedish-Americans who grew up in this area along with our ancestors who immigrated here and were visiting Andersonville to celebrate Swedish-American heritage.\nThe person who immigrated was our great-grandfather, her great-great-grandfather, Peter O'Lind, who came over from Sweden in the 1860s.\nAnd he actually first lived in the Swedish neighborhood down by Division Street, and then he and his wife, who he met and married here through the Swedish church, which was in that area, they moved up to Andersonville.\nAnd so a lot of our family is from this area.\nAnd we always came to the bakery to get the coffee cake every time.",
+        "response_summary": "The text discusses the family's Swedish heritage, immigration, and connection to Andersonville.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285400?h=58a12c79dc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240306_122842\"></iframe>"
+    }
+}

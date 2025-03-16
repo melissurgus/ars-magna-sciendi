@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My name is Aislinn and I'm going to share about my family and mine Swedish Christmas. We eat a lot of, so we have fruttabolle, which is Swedish meatballs, and then we also have loose fish, which is a type of, it's cod, then it's like cached in the summer, then it's hanged for a while until Christmas time and they do something to make it really nice. And we have a lot of fun doing that.",
+        "response_summary": "Aislinn shares about her family's Swedish Christmas traditions, including eating fruttabolle and cod.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053318571?h=66fba036cd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231227_141857\"></iframe>"
+    }
+}

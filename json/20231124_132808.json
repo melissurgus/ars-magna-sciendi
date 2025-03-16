@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hey everyone, we're the Erikssons. This is Mormor. Her grandfather immigrated from Sweden in the early 1900s and now we celebrate our Swedish traditions with her.\nYeah, and we eat Swedish meatballs on Christmas.",
+        "response_summary": "The text introduces the Eriksson family and mentions their Swedish heritage and traditions.",
+        "matched_prompt": "How have United States immigration policies affected your community?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053404886?h=6a0967efa8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231124_132808\"></iframe>"
+    }
+}

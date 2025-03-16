@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "I'm visiting today in the area of my mother's childhood. She was born about seven miles northwest of here, north of Skokie, in 1926 in a predominantly Norwegian neighborhood. Her family had immigrated, her parents and her four older siblings, from Stavanger. My mother trained at Lutheran Deaconess School of Nursing nearby and in 1949 she met my father who was at Northwestern Dental School in Chicago. They then moved to South Dakota, my father's home state, and raised their family there. I always like to come back to my mother's childhood home area and I had a great breakfast further west on Foster at Trey Kroner. Thank you.",
+        "response_summary": "The text describes the speaker's visit to the area of their mother's childhood, including details about their mother's birthplace, family background, and a visit to a local restaurant.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053405312?h=5242e553d5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230429_120955\"></iframe>"
+    }
+}

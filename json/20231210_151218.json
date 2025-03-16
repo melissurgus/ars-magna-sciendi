@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My name is Oscar and I'm here from Ecuador and this museum is very interesting and I wanted to say to any new migrants or anyone who has family members who are immigrants just remember that God is always there with you and that your culture is beautiful that God allowed you to be born into whatever culture that you are a part of so celebrate that love that appreciate that and just keep on praying and remember that whatever you ask God for God will give you and if God doesn't there's a reason and whatever negative things in your life that you might go through whatever is negative tell that negativity to shrivel let that godly grow and tell whatever mountains that come into your life tell your mountains I serve the God of the impossible tell your mountains with the help of God and Jesus to get up and to get out and keep on living the American dream",
+        "response_summary": "A response from a migrant celebrating their culture and seeking support from God for their journey.",
+        "matched_prompt": "How have United States immigration policies affected your community?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285852?h=960c6a6b30&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231210_151218\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hello, my name is Mathilde. I am Swedish-Canadian. I live in Montreal but I was born in Sweden to a Swedish dad and Canadian mom and I'm on vacation visiting Chicago and loving it and loving the museum. Yeah, I'm Isaac Mathilde's cousin from Sweden and it's an interesting experience to see the American perspective on Swedish immigrants, which is a perspective we don't really have in Sweden. For us, the Swedish immigrants are just immigrants and not immigrants. So that's a lovely story to take part of. Tack s\u00e5 mycket! Hej d\u00e5!",
+        "response_summary": "The response discusses a Swedish-Canadian visiting Chicago and their perspective on Swedish immigrants in the United States, contrasting it with their own experiences.",
+        "matched_prompt": "How have United States immigration policies affected your community?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290330?h=0045a8a366&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240629_130858\"></iframe>"
+    }
+}

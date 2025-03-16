@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Okay, hello everybody. So we are not from Sweden. I'm here with two friends that don't want to show up.\nBut I immigrated from Argentina. This guy from Brazil.\nI'm from the U.S.\nHe's from the U.S. but his parents are from Mexico.\nSo yeah, we came here to study, to get a new education, to get a new future, to improve our future especially.\nBetter opportunities.\nAnd yeah, that's the main reason we really like it here.\nAnd I hope you too.\nNice to meet you.\nNice to meet you.",
+        "response_summary": "The speaker and their friends are immigrants from Argentina, Brazil, and Mexico. They came to Chicago to study and improve their future opportunities.",
+        "matched_prompt": "How have United States immigration policies affected your community?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285656?h=623890d68f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230506_134559\"></iframe>"
+    }
+}

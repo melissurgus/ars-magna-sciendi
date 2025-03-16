@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Um, my name is Ruby and because I, it was kind of scary when I had to move to Chicago and I could leave everything that I was used to as I was doing.\nSo, it was kind of close for me to move from like an area that I really liked to be.\nWhere did you move from?\nUm, Texas.\nOkay.\nWhen I was in Texas, I was used to everything hot and I liked everything. And I liked when I was there, it was really, really happy and it was really, really, really nice to be there because it was really happy and there was a lot of pools and I liked swimming.",
+        "response_summary": "The speaker describes moving to Chicago from Texas and expresses that it was scary but also happy because of the swimming pools.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053286899?h=6dc6cf10df&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231111_114631\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Okay, my favorite tradition with my family is doing a Swedish Sorgersborg every year. We have salmon and ham and pickled herring and we do little aquavit shots in between each meal and we do it every year for Christmas Eve and then go to church after and that's one of my favorites and then we do Santa Lucia and yeah, Christmas time is my favorite time for all the Swedish traditions and love this museum, okay, thanks, bye.",
+        "response_summary": "The user describes their favorite Swedish tradition during Christmas time, including the food, drinks, and activities they engage in.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285612?h=8e75b988fd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231217_132332\"></iframe>"
+    }
+}

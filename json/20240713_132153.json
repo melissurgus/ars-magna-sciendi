@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Well, I was in Minneapolis, then I went to Chicago, then I went to the theater museum, it was very fun.",
+        "response_summary": "The response describes a journey from Minneapolis to Chicago and visiting a theater museum.",
+        "matched_prompt": "Why did you come to Chicago? How did you get here?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053404639?h=9f2d9d480a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240713_132153\"></iframe>"
+    }
+}

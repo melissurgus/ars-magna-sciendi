@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "From my mom's side of the family, her mom's mom and family journeyed from Sweden and brought with them their objects in the trunk that we still own. We don't know very little about it, but my grandma was actually born here, but the rest of her living siblings were born in Sweden. And we were able to visit my dad's side of the family, who had a grandpa that came from Gunerskog, and his sister lived in Arvika, and we got to visit the town of Arvika to see where he used to write her letters. Thanks.",
+        "response_summary": "The text discusses the family's history, mentioning ancestors from Sweden and visits to Sweden.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285216?h=9389cb8a82&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240224_141812\"></iframe>"
+    }
+}

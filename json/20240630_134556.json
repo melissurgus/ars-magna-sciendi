@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hello. Hello. We are not immigrants ourselves, but our mom isn't here right now. We're from San Francisco, and she actually immigrated from the Philippines when she was 18 years old. And she's traveled around the world as a nurse as well, and now we live in San Francisco, California. But she's from the College City, and she immigrated on a boat by herself when she was 18 years old to make a life for herself and for us.\nYep.",
+        "response_summary": "The text discusses the speaker's family's immigration history, specifically their mother's journey from the Philippines to San Francisco.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053289944?h=6088e86f09&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240630_134556\"></iframe>"
+    }
+}

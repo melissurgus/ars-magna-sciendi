@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Last year I was living in Japan for the summer. I was studying out there in the University of Tsukuba and it was a very unique experience. It's a very different culture. I didn't really speak the language and I really enjoyed kind of meeting new people and getting to know the culture more, though the experience of being an immigrant was very difficult, I guess, you know, just feeling so disconnected and missing my home country and my family and not being able to communicate with other people to kind of acclimate as well as I would like. So it was a great experience, but I can see how it could be really difficult for many, many people.",
+        "response_summary": "The response describes a personal experience of living in Japan as an immigrant, highlighting the unique culture, language barriers, and emotional challenges faced.",
+        "matched_prompt": "How have United States immigration policies affected your community?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053405046?h=b1de3771fc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240428_134434\"></iframe>"
+    }
+}

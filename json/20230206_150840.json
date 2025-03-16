@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "A special object in my family is my mom's menorah. It's been passed down in our family for generations and we light it every year. Who knows, maybe someday I'll get it.",
+        "response_summary": "The text describes a family tradition involving a menorah passed down through generations.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053289555?h=524d97fcb9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230206_150840\"></iframe>"
+    }
+}

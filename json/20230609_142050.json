@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hello. I am a native to the Chicago area, but we still celebrate our Swedish traditions. And my favorite cultural tradition is singing some songs in Swedish.",
+        "response_summary": "The response discusses celebrating Swedish traditions and singing songs in Swedish.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053381742?h=efcb0e7709&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230609_142050\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hey everyone, my name is Joe. Favorite cultural traditions is being Irish. On St. Patrick's Day we celebrate by eating a lot of corned beef and cabbage and slamming a lot of beers. It's a really fun time. You should all experience celebrating St. Patrick's Day with real Irish people, and I hope you do one day.",
+        "response_summary": "Joe introduces himself and shares his favorite cultural tradition, St. Patrick's Day, describing how it is celebrated and encouraging others to experience it.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053366194?h=cf31df91b5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230929_124808\"></iframe>"
+    }
+}

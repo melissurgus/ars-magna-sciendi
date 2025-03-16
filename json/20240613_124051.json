@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Okay, let's talk about our Nigerian clothes. So our family is from Nigeria and we have special clothes and what color are they? Green. And do they come with anything that you wear on your head? A hat. And where do we wear them? Christmas and weddings and they're very beautiful aren't they? Yep. And so are we happy to be Nigerian? Yeah. Yes we are. Tell them what else.",
+        "response_summary": "The response discusses Nigerian clothes, their color, accessories, occasions of wearing, and the speaker's happiness about being Nigerian.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053321737?h=cbe64ee122&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240613_124051\"></iframe>"
+    }
+}

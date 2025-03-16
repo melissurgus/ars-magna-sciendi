@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "I just moved from Zimbabwe to the U.S. about a year and three months ago.\nI came by New Orleans. I first came to Chicago in December of 2023 and\nI came to the city. It was freezing cold and when I got here I said I'm gonna move here. I fell in\nlove with the city. I fell in love with Chicago. Then three months later I moved to Chicago.\nI've been in Chicago now for three months and moving here has been such a great experience.\nI have fallen in love with America because of Chicago and it's just been such a great experience\nhaving to be here, getting to know myself, getting to improve on being a better person\nand you know it's such a melting pot of cultures so I love it here.",
+        "response_summary": "The person moved from Zimbabwe to the U.S. about a year and three months ago, specifically to Chicago. They fell in love with the city and have been enjoying their experience here, appreciating its cultural diversity.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285352?h=58e75bbae8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240803_154806\"></iframe>"
+    }
+}

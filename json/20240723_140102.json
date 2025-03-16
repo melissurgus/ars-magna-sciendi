@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My name is Camden, I was born in Chicago, and it's just... I'm not gay. I'm related to a woman! Stop! Actually, stop. I love God. God is real. It is true. Whoever doesn't think God's real, it's real. God is real. Obviously. It is God. Exactly. Chill. Chill, Parker. Chill. My name is Parker. I'm related to a woman. I have a loving mother.",
+        "response_summary": "The response discusses the speaker's name, origin, relationship to a woman, and their belief in God.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053299077?h=cef63ba6fb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240723_140102\"></iframe>"
+    }
+}

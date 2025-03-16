@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "All right. I think we really love Friendsgiving because we get to spend time with friends and I also love Thanksgiving because we get to spend time with our family. Yeah. I think that's a really special tradition we have in America where we get to celebrate with our family and then enjoy the people we love in our life. Yeah. Cool.",
+        "response_summary": "The speaker expresses love for Friendsgiving and Thanksgiving, emphasizing spending time with friends and family.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290403?h=9dbd6df3e1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240831_141254\"></iframe>"
+    }
+}

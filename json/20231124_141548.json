@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "One of my traditions on Christmas is I pass out with Chia Rolls and I dress up with a white dress and a crown, a green crown with candles on top and I pass out with Chia Rolls and my brother's a star boy and he just walks behind me and all my family comes for Christmas and we eat dinner together.",
+        "response_summary": "The response describes a Christmas tradition involving Chia Rolls, a white dress with a green crown, a star boy, and family dinner.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053349143?h=a14f8944fb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231124_141548\"></iframe>"
+    }
+}

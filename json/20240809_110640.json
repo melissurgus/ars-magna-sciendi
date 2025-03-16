@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, this is me, Nathaniel, and Marcus.\nAnd what if there are a ball of ee...\nOkay, forget it.\nWhat do I see?\nOkay, so our favorite cultural traditions are Christmas and Easter.\nEnd of story.\nNow look at this little doofus called Marcus.\nHe's a doofus, too.\nNo, he's not.\nNo, he's not.\nI am not.\nYou are.\nNo, you are.\nNo, you are.\nSniffy.\nHey, why is there a ball of ee...\nGive me that.\nGive me that.\nNo, that's right.\nI'm sorry about that.\nHey!\nYou're going to give me that stingy.\nGet off of me.\nSo anyways, our favorite cultural traditions are Christmas, Easter, and Halloween.\nAnd you said, get out of here!\nGet out of here!\nOkay, so anyways, I don't really care.\nGet out of here!\nGet out of here!\nSorry about that.\nWe have good news for us tomorrow.\nI'm sorry.\nSorry.\nSorry, so sorry.\nSo sorry.\nGoodbye.\nWe're running.",
+        "response_summary": "The response discusses favorite cultural traditions, including Christmas, Easter, and Halloween. It also mentions a disagreement with someone named Marcus and ends with a goodbye.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290810?h=2b736898ca&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240809_110640\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Oh, it's recording.\nOkay, I'm Alexis.\nI'm Julian.\nI'm Jackie.\nI'm just American.\nI'm Japanese-American.\nI'm Peruvian, Italian, Chinese.\nMy special object is my dad has Dolly Parton's autograph.\nMine is my family's rice cooker.\nMine is the cookbook I'm working on with my very, very aggressively Italian grandmother.\n91.\n91 and still trucking along.\nAnd yeah.\nYeah, we visited from Phoenix.\nShe's been to Sweden also.\nYeah, she's been to Sweden.\nI have.\nI love it.\nI highly recommend, if you're watching this, to start saving up for a trip to Sweden because\nit's well worth your time.\nAnd I highly recommend going to Asia.\nSave your money.\nI recommend meeting Dolly.",
+        "response_summary": "The speaker introduces themselves and shares some personal details, including their ethnic background and special objects. They also recommend visiting Sweden and Asia.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053286345?h=f0bf6646f4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230930_133638\"></iframe>"
+    }
+}

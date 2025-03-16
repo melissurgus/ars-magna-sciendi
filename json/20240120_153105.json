@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Okay, hey guys, my name is Nicole and my parents came from El Salvador in like the late 90s because there was a bad war going on over there. They hit a New York first, but I grew up in North Carolina. I moved here almost three years ago and yeah, it's been cool to learn about different cultures and parts of the world because the South doesn't have good education. You're told. I'm from the U.S. and my parents are as well, but I did visit Sweden over the summer and I was there for midsummer and that was a really cool time to be able to witness a really important cultural tradition and be a part of it and learn. Yeah. Woohoo! Bye.",
+        "response_summary": "Nicole shares her background, mentioning her parents' immigration from El Salvador, her current location in North Carolina, her recent move to Chicago, her experiences learning about different cultures, and her visit to Sweden for midsummer.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053319834?h=d923afa310&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240120_153105\"></iframe>"
+    }
+}

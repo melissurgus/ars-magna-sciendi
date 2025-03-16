@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Swedish tradition.\nHave you ever heard about Valborg?\nIt's the most insane thing we do in Sweden.\nIt's the king's birthday.\nBut you know what we do in Valborg.\nYeah.\nWe party in Valborg.\nEspecially on the universities.\nYeah, we drink a lot.\nSo you have to be responsible, of course.\nYeah, but it's our favorite tradition.\nDefinitely.",
+        "response_summary": "The text discusses a Swedish tradition called Valborg, which involves partying and drinking, especially on universities.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053288106?h=78ea962856&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230725_114806\"></iframe>"
+    }
+}

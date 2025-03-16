@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, my name is Hatem, and I came to the United States in 2018 to do my PhD in linguistics.\nI finished my PhD six months ago, and two years ago, a little bit over two years ago, I met this beautiful...\nTell them where you're from.\nI'm from Iran, and yes, so we got married in October, and since then I've been living in Chicago.",
+        "response_summary": "The response introduces the speaker, Hatem, and mentions his background coming to the United States for his PhD and his current residence in Chicago.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053403814?h=e335eaae8d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240608_115038\"></iframe>"
+    }
+}

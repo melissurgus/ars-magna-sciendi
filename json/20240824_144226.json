@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, my name is Penella. I've been here before, and there is a school close to here, and it's very new, and the reason why I'm going to a new school is because my mom got into the lottery, and she just wanted me to go to that school, and I'm very happy to go to the school, and so bye, and you'll never see me again.",
+        "response_summary": "The response introduces a person named Penella who is moving to a new school because her mother won the lottery.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290112?h=3cd63a0b10&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240824_144226\"></iframe>"
+    }
+}

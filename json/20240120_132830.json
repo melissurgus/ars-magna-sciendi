@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, my name is Liam, and I have a, oh, it's really fluffy, and it's like you get hanging on your shoulder, and then he has a little head, and he has brown eyes, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and he's really fluffy, and I like rubbing him.",
+        "response_summary": "The response describes a person's pet, specifically a fluffy cat.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053311411?h=39ba741fc4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240120_132830\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "One of my family's favorite cultural traditions is celebrating St. Patrick's Day. We usually make a great dinner that night, corned beef, cabbage, potatoes, well I don't really like cabbage but the rest of it is great and we listen to great Irish music and it's just always a really great time and very special.",
+        "response_summary": "The text describes a family's celebration of St. Patrick's Day, including their dinner and music.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053319022?h=ed6849408e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230226_152121\"></iframe>"
+    }
+}

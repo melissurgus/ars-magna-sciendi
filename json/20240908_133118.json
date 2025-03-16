@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My name is Sandy Walkholtz and my great-great-grandparents came from the J\u00f6nk\u00f6ping area and they found each other in Duluth Minnesota which was certainly a hub for a lot of Scandinavians because they were offloading more goods than what was being offloaded in New York City at the time. They married and my great-grandfather came from Baden-Norway. I was raised outside of Minnesota in a very farming community and a lot of the a lot of the older Swedish people still spoke very very old dialects of Swedish and when I was going to be an exchange student in Sweden in 1977 and I was working as a waitress in the restaurant these old Swedes would come and teach me this very very old Swedish and when I arrived this young Swedish kids looked at me like I had 40 heads but anyway I love Scandinavia",
+        "response_summary": "The speaker shares their family history and cultural background, mentioning their Swedish heritage and the influence of Scandinavian culture on their life.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053319504?h=5c05747938&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240908_133118\"></iframe>"
+    }
+}

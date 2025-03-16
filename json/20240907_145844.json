@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Min yndlingstradition er, at n\u00e5r det er juleaften, s\u00e5 gerne skal \u00e5bne sig dagen rundt om juttetr\u00e6et og synger en masse julesalmer med sin familie.",
+        "response_summary": "The response describes a favorite tradition of opening the day around the Christmas tree and singing many Christmas songs with the family on Christmas Eve.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290720?h=11c19ca472&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240907_145844\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hello, my name is Ludvig. I'm from Stockholm. I'm a bona fide city boy who has moved here to Chicago with my wife, Rebecca.\nWe're part of a big pack that has moved here for our industrial job reasons, helping out bringing the engineering fortitude of Sweden to Illinois.\nAnd it's been fantastic. We've been traveling around the US for a while, all of us, and I think we all genuinely really like Chicago.\nAnd maybe it's because of Andersonville. It's always welcome and comforting to see the big polka, big dull horse here.\nAnd maybe it's just because it's a great city. So thank you so much for being so welcoming.\nAnd it's been a pleasant year so far. Looking forward to two more years in Illinois.",
+        "response_summary": "The response discusses a person's move to Chicago from Stockholm, their experiences in the city, and their appreciation for its culture and welcoming nature.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053287966?h=1ff2d17241&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240524_111842\"></iframe>"
+    }
+}

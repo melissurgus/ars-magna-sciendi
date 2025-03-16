@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My family immigrated here from Target Republic. We were targeted by the Republican regime and then we had to move to Banana Republic and we ate all kinds of bananas and couldn't eat anything else but bananas. And so we moved to the U.S. and first we moved to California and then we moved to Illinois and we got to eat lots of other foods besides bananas. Okay, bye.",
+        "response_summary": "The response discusses the family's immigration from Target Republic to Banana Republic, then to the U.S., and their experiences in California and Illinois.",
+        "matched_prompt": "How have United States immigration policies affected your community?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053321918?h=dd95b871d3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240107_144833\"></iframe>"
+    }
+}

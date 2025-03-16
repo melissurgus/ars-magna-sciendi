@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Soul Food. No matter when it's started or when it ends, it'll be amazing the whole time in between.\nI really like a good Irish jig or reel, especially when it's being played live.\nFiddle, accordion, bagpipes, the bodron. Very good. Good stuff.\nCool, cool.",
+        "response_summary": "The text discusses enjoying various musical instruments and performances, particularly Irish music.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053287700?h=815fff8de7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230210_141115\"></iframe>"
+    }
+}

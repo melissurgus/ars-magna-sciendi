@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "My father's parents immigrated from Denmark to Montreal in 1928. They had been farmers, well my grandmother's family were farmers in Jutland, and my grandfather was nearly finished his doctorate in linguistics at the University of Copenhagen, but they had to move, they chose to move, to Montreal. They brought with them all kinds of traditional things to use in the kitchen, and they also brought a wonderful wedding cup. We just found out it wasn't from their wedding, but it was kind of a silver beaker, and it's all engraved, and there are initials and dates of different marriages all from one family. I thought they were ours, but they weren't. But it's a really beautiful beaker, silver money that my family all loves.",
+        "response_summary": "The text describes the immigration of the speaker's family from Denmark to Montreal in 1928, including the traditional items they brought with them, and mentions a silver beaker with engraved initials and dates of different marriages.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053299373?h=9d4d71ff13&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240406_134916\"></iframe>"
+    }
+}

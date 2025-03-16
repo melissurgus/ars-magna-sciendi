@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "One of my favorite traditions is making special cookies that my, I'm not from either one of those, just saying, well, this one I was in, but making special butter cookies.",
+        "response_summary": "The speaker mentions making special butter cookies as one of their favorite traditions, which is a cultural tradition.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053403489?h=d4049fefce&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240428_150416\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "So one of my favorite cultural traditions is actually when my farmer, my father's mother, comes to visit from Sweden because I'm half Swedish and she'll make a bunch of kanilbulle or cinnamon buns and she'll put the dough in the freezer so we can have them like all year long until she visits again. It's just one of those things like she doesn't know the actual recipe like it's not written down anywhere she just does her own thing and it's become cultural because it's only like my Swedish grandmother who does this so it's a very fun tradition that means a lot to me.",
+        "response_summary": "The text describes a cultural tradition involving a Swedish grandmother making cinnamon buns for the narrator.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053404746?h=8e12554437&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230310_141345\"></iframe>"
+    }
+}

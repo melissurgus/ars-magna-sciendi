@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, I'm Karen, and I'm primarily Scottish. K-A-R-I-N is the spelling of my first name, so I do have German and Polish heritage, but most of my family is from the British Isles. Scotland, Kirkoubry, my relatives, the bastard side of my family, left from Ross Island Lighthouse in the 1800s, and they brought horses to America. A lot of them ended up in Nebraska, but then my father and parents ended up on the East Coast in Virginia. And my dad and I really research a lot of genealogy, and the McKee family crest is a raven holding arrows, and our motto is labor, L-A-B-O-U-R. So we have that Protestant work ethic of working all the time and being Scottish, and so I love the Highland Games and putting the caper and sheepdog trials, and I try to participate in the Highland Games whenever I can because of my Scottish heritage. Thanks.",
+        "response_summary": "Karen shares her Scottish heritage, including her family's history and genealogy, and her love for Highland Games and Scottish traditions.",
+        "matched_prompt": "What is your relationship to your ethnic identity?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053290473?h=3e49ed5740&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240928_152149\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, my name is Beatrice, and my favorite culture is Sweden, and my favorite tradition there is, I don't really know a really good tradition, I honestly, I like Christmas at Sweden, it's very nice, and their candy is really delicious, and yeah. And let's see how far and, and I will see you again. Bye!",
+        "response_summary": "The response introduces Beatrice, mentions her favorite culture (Sweden), and expresses a preference for Christmas and Swedish candy. It ends with a goodbye.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053319255?h=518eafdca3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240824_144508\"></iframe>"
+    }
+}

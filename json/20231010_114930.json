@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi!\nSay hi.\nYou want to say hi Carly?\nCome here. Hi.\nNo, come in the video. Come say hi. Here.\nLet Carly come in the video.\nCome here.\nSay hi.\nHi.\nYou want to say hi?\nHi.\nSay bye.\nBye!",
+        "response_summary": "The text is a series of instructions to say hi and goodbye, with some repetition.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053289259?h=d8cbd2e8eb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231010_114930\"></iframe>"
+    }
+}

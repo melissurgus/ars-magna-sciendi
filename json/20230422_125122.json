@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hej fr\u00e5n Sverige\nReal Swedish people\nHello\nVi kommer fr\u00e5n \u00c4lvros\nWith peace\nH\u00e4rjedalen",
+        "response_summary": "The text is in Swedish and mentions being from Sweden, with a greeting and a place name.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053287764?h=9c26a5bf9b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230422_125122\"></iframe>"
+    }
+}

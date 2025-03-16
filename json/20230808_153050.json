@@ -1,0 +1,7 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "All of my favorite cultural traditions are Christmas, because Christmas can be religious for some people, like the birth of Jesus Christ, but for us, it's not. It's just cultural. It's a tradition. Also, Halloween is a tradition. It's not religious for us. It's cultural, just like Easter. Religious for some, cultural for us. Thanks for watchin'.",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053288167?h=369e549a11&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230808_153050\"></iframe>"
+    }
+}

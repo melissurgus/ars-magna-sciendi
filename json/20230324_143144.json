@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "I would say that my favorite cultural tradition, Swedish, is when I eat a boy for breakfast. Yes. I would say kalbada is very nice. Good for you, yes. I agree with you, of course. It's a very nice tradition. My mom and dad eats it every day. It's healthy and all. You can buy a boy at the Swedish shop here in Chicago. Thank you from us, we come from Helsingborg. Peace.",
+        "response_summary": "The text discusses Swedish culture, specifically mentioning a traditional dish called 'boy' and its popularity in the speaker's family. It also mentions buying the dish at a Swedish shop in Chicago.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053285714?h=7a478ab3e2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230324_143144\"></iframe>"
+    }
+}

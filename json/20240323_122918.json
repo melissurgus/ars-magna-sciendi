@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hej, jag heter Sandy. Min morfars mor flyttade ifr\u00e5n Sverige till Michigan och n\u00e4r min morfar b\u00f6rjade skolan han kunde bara snacka svenska.\nMen han hade gl\u00f6mt svensk. Jag var en utbytesstudent i 1984 och bodde i Tr\u00e4daborg i Sverige och l\u00e4rde mig svenska.\nMin morfar hade en halv syster som bodde i Sverige. Hon kunde inte engelska, min morfar kunde inte svenska s\u00e5 jag \u00f6versett f\u00f6r dem.\nVi har julbord varje jul. Jag vill inte gl\u00f6mma att snacka svenska och det \u00e4r j\u00e4ttekul att bli h\u00e4r p\u00e5 museet och jag har bara fem sekunder kvar.\nHa det s\u00e5 bra. Det \u00e4r j\u00e4ttekul att snacka med dig.\nTack!\nTack till elever och personer som hj\u00e4lpte med videon!",
+        "response_summary": "The text is a personal introduction and a conversation about language learning and cultural traditions.",
+        "matched_prompt": "None of the above",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053331312?h=1f0fdd84d9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240323_122918\"></iframe>"
+    }
+}

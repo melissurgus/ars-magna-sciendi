@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Lucy, what are your favorite cultural traditions?\nFood in China.\nOkay. Also, my favorite is Northern food in China, especially in Xi'an.\nWe have cold noodles and Chinese hamburgers, which are really delicious. I really miss Xi'an.\nI feel like doing an IELTS speaking test.",
+        "response_summary": "The response discusses favorite cultural traditions, specifically mentioning Chinese food and a desire to do an IELTS speaking test.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053331220?h=d7b0589555&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230831_144614\"></iframe>"
+    }
+}

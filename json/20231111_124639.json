@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Uh, my great-grandmother, whose name is Maria, she came from Mexico to America when she was about 15 to 16 because, uh, she didn't have a lot of money and she needed a job. Uh, she, when she, she moved to Chicago, I think, um, and she had, she had a kid with a sweet, she had two kids with a Swedish guy and then divorced him and had two other kids with a Polish guy and divorced him. Um, and I guess that's our family story.",
+        "response_summary": "The speaker shares their great-grandmother's story, including her migration from Mexico to America, her life in Chicago, and her family's history.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053322017?h=3144682bbd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231111_124639\"></iframe>"
+    }
+}

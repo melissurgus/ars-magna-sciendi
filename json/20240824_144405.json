@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Hi, my name is Penella and you probably just saw me, so if you say anything, just hi.\nMy favorite culture is Sweden because I've been there and it's very fun, very hot.\nWe don't get a lot of snow, so if you decide to go to Sweden in the winter,\ndon't bring a lot of snow clothes, you probably should, but there's not going to be a lot of snow.\nAnd my favorite tradition is, I don't know, just Swedish culture and tradition. I just like it. So, bye!",
+        "response_summary": "The response introduces the speaker, mentions their favorite culture (Sweden), discusses the weather in Sweden, and expresses a love for Swedish culture and traditions.",
+        "matched_prompt": "What are your favorite cultural traditions?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053288955?h=5e088ab268&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20240824_144405\"></iframe>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "determine_prompt_match",
+    "arguments": {
+        "response_text": "Go. Okay. Are you working? Is it working? Yeah. My great-grandparents came from Sweden and my great-grandparents got burned out in the Chicago fire and we were told that the bible was here in the museum but we haven't seen it. We're grateful for our Scandinavian heritage but through the years we are Americans and we still carry on a curve tradition and some of us are brave enough to even eat boot fisk. So the diary? Diary. Oh and I found my great-grandfather's diary and thank you for this opportunity to let you know that where our roots came from. Thank you.",
+        "response_summary": "The speaker discusses their family's heritage, mentioning their great-grandparents coming from Sweden and the Chicago fire. They express gratitude for their Scandinavian heritage but also identify as Americans. They mention a family tradition of eating boot fisk and finding their great-grandfather's diary.",
+        "matched_prompt": "How did you and your family build a life in Chicago?",
+        "embed_code": "<iframe src=\"https://player.vimeo.com/video/1053320095?h=363f7c334e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=486055\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20230702_121305\"></iframe>"
+    }
+}
