@@ -15,8 +15,8 @@
             gap: 10px;
         }
         .page-result img {
-            max-width: 200px;
-            max-height: 300px;
+            max-width: 1600px;
+            max-height: 2400px;
             border: 1px solid #ddd;
         }
     </style>
@@ -51,7 +51,7 @@
             const searchTerm = this.value.toLowerCase();
             
             // If search is too short, clear results
-            if (searchTerm.length < 2) {
+            if (searchTerm.length < 1) {
                 resultsDiv.innerHTML = '';
                 return;
             }
