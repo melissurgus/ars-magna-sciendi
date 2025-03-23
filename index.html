@@ -4,29 +4,80 @@
     <meta charset="UTF-8">
     <title>Dynamic Dictionary Search</title>
     <style>
+        .search-frame {
+            width: 200px;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
         #searchInput {
-            width: 300px;
+            width: 120px;
             padding: 10px;
             margin-bottom: 10px;
+        }
+        .symbol-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        .symbol-btn {
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .symbol-btn:hover {
+            background-color: #e5e5e5;
         }
         #results {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 15px;
         }
-        .page-result img {
-            max-width: 200px;
-            max-height: 300px;
+        .entry-result img {
+            max-width: 400px;
+            max-height: 600px;
             border: 1px solid #ddd;
         }
     </style>
 </head>
 <body>
-    <input type="text" id="searchInput" placeholder="Type syllables to search...">
+    <div class="search-frame">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <div class="symbol-buttons">
+            <button class="symbol-btn" onclick="addToSearch('ɕ')">ɕ</button>
+            <button class="symbol-btn" onclick="addToSearch('ɛ')">ɛ</button>
+            <button class="symbol-btn" onclick="addToSearch('ɨ')">ɨ</button>
+            <button class="symbol-btn" onclick="addToSearch('ɿ')">ɿ</button>
+            <button class="symbol-btn" onclick="addToSearch('m̩')">m̩</button>
+            <button class="symbol-btn" onclick="addToSearch('n̩')">n̩</button>
+            <button class="symbol-btn" onclick="addToSearch('ȵ')">ȵ</button>
+            <button class="symbol-btn" onclick="addToSearch('ŋ')">ŋ</button>
+            <button class="symbol-btn" onclick="addToSearch('ŋ̍')">ŋ̍</button>
+            <button class="symbol-btn" onclick="addToSearch('ɵ')">ɵ</button>
+            <button class="symbol-btn" onclick="addToSearch(''')">ʼ</button>
+            <button class="symbol-btn" onclick="addToSearch('ʔ')">ʔ</button>
+        </div>
+    </div>
     <div id="results"></div>
 
     <script>
         let dictionaryData = null;
+        let entriesCache = {};
+
+        // Function to add symbol to search box
+        function addToSearch(symbol) {
+            const searchInput = document.getElementById('searchInput');
+            searchInput.value += symbol;
+            searchInput.focus();
+            // Trigger the search after adding symbol
+            searchInput.dispatchEvent(new Event('input'));
+        }
 
         // Load JSON data when page loads
         fetch('syllables.json')
@@ -41,7 +92,24 @@
         const searchInput = document.getElementById('searchInput');
         const resultsDiv = document.getElementById('results');
 
-        searchInput.addEventListener('input', function() {
+        // Function to get entries for a page
+        async function getPageEntries(pageNum) {
+            if (entriesCache[pageNum]) {
+                return entriesCache[pageNum];
+            }
+            
+            try {
+                const response = await fetch(`entries/page_${pageNum}_index.json`);
+                const data = await response.json();
+                entriesCache[pageNum] = data.entries || [];
+                return entriesCache[pageNum];
+            } catch (error) {
+                console.error(`Error loading entries for page ${pageNum}:`, error);
+                return [];
+            }
+        }
+
+        searchInput.addEventListener('input', async function() {
             // Check if data is loaded
             if (!dictionaryData) {
                 resultsDiv.innerHTML = 'Loading dictionary...';
@@ -50,8 +118,8 @@
 
             const searchTerm = this.value.toLowerCase();
             
-            // If search is too short, clear results
-            if (searchTerm.length < 2) {
+            // Allow search with just 1 character
+            if (searchTerm.length < 1) {
                 resultsDiv.innerHTML = '';
                 return;
             }
@@ -69,14 +137,37 @@
                 });
             });
 
-            // Limit to 10 pages
-            const limitedPages = Array.from(pageNumbers).slice(0, 10);
-
-            // Display matching pages
-            resultsDiv.innerHTML = limitedPages.map(pageNum => 
-                `<div class="page-result">
-                    <img src="pages/page_${pageNum}.png" alt="Page ${pageNum}">
-                    <p>Page ${pageNum}</p>
+            resultsDiv.innerHTML = 'Loading entries...';
+            
+            // Collect all entries from matched pages
+            let allEntries = [];
+            for (const pageNum of pageNumbers) {
+                const pageEntries = await getPageEntries(pageNum);
+                pageEntries.forEach(entry => {
+                    allEntries.push({
+                        pageNum,
+                        entryNum: entry
+                    });
+                });
+                
+                // Limit to 100 entries total
+                if (allEntries.length >= 100) {
+                    allEntries = allEntries.slice(0, 100);
+                    break;
+                }
+            }
+            
+            // Display matching entries
+            if (allEntries.length === 0) {
+                resultsDiv.innerHTML = 'No matching entries found.';
+                return;
+            }
+            
+            resultsDiv.innerHTML = allEntries.map(entry => 
+                `<div class="entry-result">
+                    <img src="entries/${entry.pageNum}_entry_${entry.entryNum}.png" 
+                         alt="Page ${entry.pageNum}, Entry ${entry.entryNum}">
+                    <p>Page ${entry.pageNum}, Entry ${entry.entryNum}</p>
                 </div>`
             ).join('');
         });
