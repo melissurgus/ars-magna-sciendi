@@ -1,275 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Videos by Category</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    .video-container {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 aspect ratio */
-      height: 0;
-      overflow: hidden;
-      max-width: 100%;
-    }
-    .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .loading {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 200px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Dynamic Dictionary Search</title>
+    <style>
+        #searchInput {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #results {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .page-result img {
+            max-width: 200px;
+            max-height: 300px;
+            border: 1px solid #ddd;
+        }
+    </style>
 </head>
-<body class="bg-gray-100">
-  <div class="max-w-6xl mx-auto p-4">
-    <h1 class="text-3xl font-bold mb-6">Videos by Category</h1>
-    
-    <div class="mb-6">
-      <label for="prompt-select" class="block text-lg font-medium mb-2">
-        Select a Prompt:
-      </label>
-      <select 
-        id="prompt-select"
-        class="w-full p-2 border border-gray-300 rounded-md bg-white shadow-sm focus:outline-none"
-      >
-        <option value="">Loading prompts...</option>
-      </select>
-    </div>
-    
-    <div id="status-message" class="mb-4 text-gray-600"></div>
-    
-    <div id="loading" class="loading">
-      <p class="text-xl font-medium text-gray-600">Loading data...</p>
-    </div>
-    
-    <div id="error-container" class="bg-red-50 p-4 rounded-md border border-red-200 text-red-700 mb-4 hidden">
-      <h2 class="text-lg font-medium mb-2">Error Loading Data</h2>
-      <p id="error-message"></p>
-    </div>
-    
-    <div id="videos-container" class="space-y-8"></div>
-    
-    <div id="no-videos" class="text-center p-8 bg-gray-100 rounded-md hidden">
-      <p class="text-gray-600">No videos found for the selected prompt.</p>
-    </div>
-  </div>
+<body>
+    <input type="text" id="searchInput" placeholder="Type syllables to search...">
+    <div id="results"></div>
 
-  <script>
-    // Main data store
-    let allData = [];
-    let uniquePrompts = [];
-    let selectedPrompt = '';
-    
-    // DOM elements
-    const promptSelect = document.getElementById('prompt-select');
-    const statusMessage = document.getElementById('status-message');
-    const loadingElement = document.getElementById('loading');
-    const errorContainer = document.getElementById('error-container');
-    const errorMessage = document.getElementById('error-message');
-    const videosContainer = document.getElementById('videos-container');
-    const noVideos = document.getElementById('no-videos');
-    
-    // Event listeners
-    promptSelect.addEventListener('change', handlePromptChange);
-    
-    // Initialize
-    document.addEventListener('DOMContentLoaded', init);
-    
-    function init() {
-      fetchData();
-    }
-    
-    async function fetchData() {
-      try {
-        // First, try to fetch the index.json file
-        const indexResponse = await fetch('./json/index.json');
-        
-        if (!indexResponse.ok) {
-          throw new Error('Could not fetch index of JSON files. Make sure you have an index.json file in your json directory.');
-        }
-        
-        const fileList = await indexResponse.json();
-        
-        // Fetch each individual JSON file
-        for (const filename of fileList) {
-          try {
-            const fileResponse = await fetch(`./json/${filename}`);
-            if (fileResponse.ok) {
-              const fileData = await fileResponse.json();
-              allData.push(fileData);
+    <script>
+        let dictionaryData = null;
+
+        // Load JSON data when page loads
+        fetch('syllables.json')
+            .then(response => response.json())
+            .then(data => {
+                dictionaryData = data;
+            })
+            .catch(error => {
+                console.error('Error loading dictionary data:', error);
+            });
+
+        const searchInput = document.getElementById('searchInput');
+        const resultsDiv = document.getElementById('results');
+
+        searchInput.addEventListener('input', function() {
+            // Check if data is loaded
+            if (!dictionaryData) {
+                resultsDiv.innerHTML = 'Loading dictionary...';
+                return;
             }
-          } catch (err) {
-            console.error(`Error fetching ${filename}:`, err);
-            // Continue with other files even if one fails
-          }
-        }
-        
-        if (allData.length === 0) {
-          throw new Error('No valid data files were found.');
-        }
-        
-        // Process the data
-        processData();
-        
-      } catch (err) {
-        showError(err.message);
-        // Use sample data as fallback
-        useSampleData();
-      }
-    }
-    
-    function useSampleData() {
-      // Sample data based on the provided example
-      allData = [
-        {
-          name: "determine_prompt_match",
-          arguments: {
-            response_text: "My favourite cultural traditions, I like May Day and Guy Fawkes Night back in England.\nWhat about you, Kate?\nFootball.\nFootball. Awesome.",
-            response_summary: "The text discusses cultural traditions and sports preferences.",
-            matched_prompt: "What are your favorite cultural traditions?",
-            embed_code: "<iframe src=\"https://player.vimeo.com/video/1053405432?h=e4df79c16a&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231012_140212\"></iframe>"
-          }
-        },
-        {
-          name: "determine_prompt_match",
-          arguments: {
-            response_text: "I enjoy celebrating Diwali with my family. The lights and food make it special.",
-            response_summary: "Discussion about cultural celebrations and family traditions.",
-            matched_prompt: "What are your favorite cultural traditions?",
-            embed_code: "<iframe src=\"https://player.vimeo.com/video/1053405437?h=e4df79c16a&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" title=\"20231012_140217\"></iframe>"
-          }
-        }
-      ];
-      
-      processData();
-    }
-    
-    function processData() {
-      // Extract unique prompts
-      const promptsSet = new Set();
-      
-      allData.forEach(item => {
-        if (item.arguments && item.arguments.matched_prompt) {
-          promptsSet.add(item.arguments.matched_prompt);
-        }
-      });
-      
-      uniquePrompts = Array.from(promptsSet);
-      
-      // Populate the prompt dropdown
-      populatePromptDropdown();
-      
-      // Hide loading indicator
-      loadingElement.classList.add('hidden');
-      
-      // Select the first prompt by default
-      if (uniquePrompts.length > 0) {
-        promptSelect.value = uniquePrompts[0];
-        selectedPrompt = uniquePrompts[0];
-        filterAndDisplayVideos();
-      }
-    }
-    
-    function populatePromptDropdown() {
-      // Clear existing options
-      promptSelect.innerHTML = '';
-      
-      // Add options for each unique prompt
-      uniquePrompts.forEach(prompt => {
-        const option = document.createElement('option');
-        option.value = prompt;
-        option.textContent = prompt;
-        promptSelect.appendChild(option);
-      });
-    }
-    
-    function handlePromptChange(e) {
-      selectedPrompt = e.target.value;
-      filterAndDisplayVideos();
-    }
-    
-    function filterAndDisplayVideos() {
-      // Filter the data based on selected prompt
-      const filteredData = allData.filter(item => 
-        item.arguments && item.arguments.matched_prompt === selectedPrompt
-      );
-      
-      // Update status message
-      statusMessage.textContent = `Showing ${filteredData.length} video${filteredData.length !== 1 ? 's' : ''} for selected prompt`;
-      
-      // Clear existing videos
-      videosContainer.innerHTML = '';
-      
-      // Show or hide the "no videos" message
-      if (filteredData.length === 0) {
-        noVideos.classList.remove('hidden');
-      } else {
-        noVideos.classList.add('hidden');
-        
-        // Create and append video elements
-        filteredData.forEach(item => {
-          const videoElement = createVideoElement(item);
-          videosContainer.appendChild(videoElement);
+
+            const searchTerm = this.value.toLowerCase();
+            
+            // If search is too short, clear results
+            if (searchTerm.length < 2) {
+                resultsDiv.innerHTML = '';
+                return;
+            }
+
+            // Find matching syllables
+            const matchedSyllables = Object.keys(dictionaryData).filter(syllable => 
+                syllable.toLowerCase().includes(searchTerm)
+            );
+
+            // Collect unique page numbers
+            const pageNumbers = new Set();
+            matchedSyllables.forEach(syllable => {
+                dictionaryData[syllable].forEach(pageNum => {
+                    pageNumbers.add(pageNum);
+                });
+            });
+
+            // Limit to 10 pages
+            const limitedPages = Array.from(pageNumbers).slice(0, 10);
+
+            // Display matching pages
+            resultsDiv.innerHTML = limitedPages.map(pageNum => 
+                `<div class="page-result">
+                    <img src="pages/page_${pageNum}.png" alt="Page ${pageNum}">
+                    <p>Page ${pageNum}</p>
+                </div>`
+            ).join('');
         });
-      }
-    }
-    
-    function createVideoElement(item) {
-      const videoDiv = document.createElement('div');
-      videoDiv.className = 'border rounded-lg overflow-hidden shadow-md bg-white';
-      
-      // Video container with iframe
-      const videoContainer = document.createElement('div');
-      videoContainer.className = 'video-container bg-black';
-      videoContainer.innerHTML = item.arguments.embed_code;
-      
-      // Content container
-      const contentDiv = document.createElement('div');
-      contentDiv.className = 'p-4';
-      
-      // Summary section
-      const summaryTitle = document.createElement('h2');
-      summaryTitle.className = 'text-xl font-semibold mb-2';
-      summaryTitle.textContent = 'Summary';
-      
-      const summaryText = document.createElement('p');
-      summaryText.className = 'text-gray-700 mb-4';
-      summaryText.textContent = item.arguments.response_summary;
-      
-      // Response text section
-      const responseTitle = document.createElement('h2');
-      responseTitle.className = 'text-xl font-semibold mb-2';
-      responseTitle.textContent = 'Transcript';
-      
-      const responseTextDiv = document.createElement('div');
-      responseTextDiv.className = 'bg-gray-100 p-4 rounded-md whitespace-pre-line';
-      responseTextDiv.textContent = item.arguments.response_text;
-      
-      // Assemble the elements
-      contentDiv.appendChild(summaryTitle);
-      contentDiv.appendChild(summaryText);
-      contentDiv.appendChild(responseTitle);
-      contentDiv.appendChild(responseTextDiv);
-      
-      videoDiv.appendChild(videoContainer);
-      videoDiv.appendChild(contentDiv);
-      
-      return videoDiv;
-    }
-    
-    function showError(message) {
-      errorMessage.textContent = message;
-      errorContainer.classList.remove('hidden');
-      loadingElement.classList.add('hidden');
-    }
-  </script>
+    </script>
 </body>
 </html>
