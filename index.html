@@ -68,7 +68,6 @@
 
     <script>
         let dictionaryData = null;
-        let entriesCache = {};
 
         // Function to add symbol to search box
         function addToSearch(symbol) {
@@ -92,24 +91,36 @@
         const searchInput = document.getElementById('searchInput');
         const resultsDiv = document.getElementById('results');
 
-        // Function to get entries for a page
-        async function getPageEntries(pageNum) {
-            if (entriesCache[pageNum]) {
-                return entriesCache[pageNum];
+        // Function to display entries for pages
+        function displayEntries(pageNumbers) {
+            // Limit to 100 entries total
+            const maxEntries = 100;
+            let entriesCount = 0;
+            let resultsHTML = '';
+            
+            for (const pageNum of pageNumbers) {
+                // Assuming up to 20 entries per page (as mentioned)
+                for (let entryNum = 1; entryNum <= 20; entryNum++) {
+                    resultsHTML += `
+                        <div class="entry-result">
+                            <img src="entries/${pageNum}_entry_${entryNum}.png" 
+                                 alt="Page ${pageNum}, Entry ${entryNum}"
+                                 onerror="this.parentNode.style.display='none'">
+                            <p>Page ${pageNum}, Entry ${entryNum}</p>
+                        </div>
+                    `;
+                    
+                    entriesCount++;
+                    if (entriesCount >= maxEntries) break;
+                }
+                
+                if (entriesCount >= maxEntries) break;
             }
             
-            try {
-                const response = await fetch(`entries/page_${pageNum}_index.json`);
-                const data = await response.json();
-                entriesCache[pageNum] = data.entries || [];
-                return entriesCache[pageNum];
-            } catch (error) {
-                console.error(`Error loading entries for page ${pageNum}:`, error);
-                return [];
-            }
+            return resultsHTML;
         }
 
-        searchInput.addEventListener('input', async function() {
+        searchInput.addEventListener('input', function() {
             // Check if data is loaded
             if (!dictionaryData) {
                 resultsDiv.innerHTML = 'Loading dictionary...';
@@ -137,39 +148,16 @@
                 });
             });
 
-            resultsDiv.innerHTML = 'Loading entries...';
+            // Convert to array for easier handling
+            const pageArray = Array.from(pageNumbers);
             
-            // Collect all entries from matched pages
-            let allEntries = [];
-            for (const pageNum of pageNumbers) {
-                const pageEntries = await getPageEntries(pageNum);
-                pageEntries.forEach(entry => {
-                    allEntries.push({
-                        pageNum,
-                        entryNum: entry
-                    });
-                });
-                
-                // Limit to 100 entries total
-                if (allEntries.length >= 100) {
-                    allEntries = allEntries.slice(0, 100);
-                    break;
-                }
-            }
-            
-            // Display matching entries
-            if (allEntries.length === 0) {
+            if (pageArray.length === 0) {
                 resultsDiv.innerHTML = 'No matching entries found.';
                 return;
             }
             
-            resultsDiv.innerHTML = allEntries.map(entry => 
-                `<div class="entry-result">
-                    <img src="entries/${entry.pageNum}_entry_${entry.entryNum}.png" 
-                         alt="Page ${entry.pageNum}, Entry ${entry.entryNum}">
-                    <p>Page ${entry.pageNum}, Entry ${entry.entryNum}</p>
-                </div>`
-            ).join('');
+            // Display all entries from matching pages
+            resultsDiv.innerHTML = displayEntries(pageArray);
         });
     </script>
 </body>
